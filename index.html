@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,62 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <section>
+        <h2>Learn Web Design, Coding, & Much More</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem cum non repellat suscipit odit, optio eius!
+            Maiores nobis officiis fugiat dolor iusto dolores facilis neque consequuntur ad. Aliquam, illum corrupti?
+        </p>
+        <form action="#" method="post" name="signup-form">
+            <fieldset>
+                <p>Try it free for 7 days starting at $25 a month</p>
+                <h3>Field of Interest</h3>
+                <div>
+                    <input id="html" name="area-interest" type="radio" value="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input id="css" name="area-interest" type="radio" value="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input id="javascript" name="area-interest" type="radio" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+                <div>
+                    <input id="ux-ui" name="area-interest" type="radio" value="ux-ui">
+                    <label for="ux-ui">UX UI Design</label>
+                </div>
+
+
+                <div>
+                    <label for="f-name">First Name</label>
+                    <input id="f-name" name="f-name" type="text" required minlength="3" autofocus>
+                </div>
+                <div>
+                    <label for="l-name">Last Name</label>
+                    <input id="l-name" name="l-name" type="text" required minlength="3">
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" placeholder="ie. janedoe@gmail.com" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input form="password" name="password" type="password" autocomplete="off" minlength="8">
+                </div>
+                <div>
+                    <input type="submit" value="Claim Your Free Trial">
+                </div>
+                <div>
+                    <label for="subscribe">By signging up you are agreeing to our <a href="#">Terms of Service</a> </label>
+                    <input id="subscribe" name="subscribe" type="checkbox">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
 </body>
+
 </html>
