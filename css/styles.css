@@ -67,4 +67,17 @@ input[type=checkbox] {
 }
 
 
-/* TOMORROW AT 6:50pm DUE! */
+@media screen and (min-width:1000px) {
+    section {
+        display: flex;
+    }
+    fieldset {
+      width: 650px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+     fieldset {
+       width: 650px;
+     }
+}
